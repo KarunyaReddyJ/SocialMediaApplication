@@ -1,0 +1,53 @@
+.profile-photo {
+    text-align: center;
+  }
+  
+  .profile-photo img {
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+  }
+  #my-profile{
+    width: 300px;
+    margin: auto;
+    background-color: antiquewhite;
+  }
+  #first-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  #last-name {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.profile  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  .login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  #profiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  

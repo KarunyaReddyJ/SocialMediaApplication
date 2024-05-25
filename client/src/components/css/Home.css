@@ -1,0 +1,79 @@
+/* Assuming .post is the class for your Post component */
+#Home{
+  position: relative;
+  overflow: scroll;
+}
+.post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the form */
+  form {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    position: sticky;
+    float: right;
+    margin-top: auto;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+#btn:hover {
+    background-color: #62b300;
+  }
+#post-area{
+  width: 30vw;
+  margin: auto;
+}
+#post-area input[type="text"]{
+  text-align: justify;
+  align-items: self-start;
+  height: 20vh;
+}
+#post-area input[type="submit"]{
+  width: 80%;
+  margin: auto;
+}
+#cross{
+  float: right;
+  background-color: red;
+  padding: 2px 10px;
+  color: white;
+}

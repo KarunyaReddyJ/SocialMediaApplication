@@ -1,0 +1,41 @@
+.post{
+    box-shadow: 0px 0px 5px black;
+    width: 50vw;
+    max-width: 500px;
+    margin:10px auto;
+    border-radius: 10px;
+}
+.content{
+    font: 1em sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.likes span{
+    color: red;
+}
+.likes img{
+    height: 55px;
+}
+.likes{
+    display: flex;
+    justify-content: baseline;
+}
+.author{
+    font: 1em sans-serif;
+    font-family:monospace;
+    font-size: 24px;
+    text-align: left;
+}
+#like-comments{
+    display: flex;
+    justify-content: space-evenly;
+}
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delete{
+    width: 20px;
+    cursor: pointer;
+}

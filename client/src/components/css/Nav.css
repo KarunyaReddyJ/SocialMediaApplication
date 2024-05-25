@@ -1,0 +1,100 @@
+nav {
+    color: #fff;
+    padding: 10px;
+  }
+#nav{
+  background-color: #da0000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav img{
+  width: 100px;
+}
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline;
+    margin-right: 10px;
+    
+  }
+li img{
+  width: 50px;
+  height: 50px;
+}
+.request{
+  width: 60px;
+  height: 50px;
+}
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+  /* Styling for the profile photo */
+  .profile-photo {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc; /* Placeholder color */
+    margin-right: 10px;
+  }
+  li{
+    cursor:pointer;
+  }
+  .clicked{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 5px 5px;
+  }
+  #username{
+    color: white;
+    cursor: pointer;
+    margin:0 10px;
+  }
+  #user-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+#user-section img{
+  width: 30px;
+}
+#nav-bar{
+  position: relative;
+}
+/* responsive */
+#dash{
+  display: none;
+}
+#main{
+  z-index: 4;
+  display: none;
+}
+#main ul{
+  display: flex;
+  flex-direction: column;
+  width: 30vw; 
+}
+#main li{
+  background-color: #ccc;
+  padding:10px 0;
+}
+@media screen and (min-width:541px) {
+  #main{
+    display: none !important;
+  }
+}
+@media screen and (max-width:540px) {
+  nav{
+    display: none;
+  }
+  #dash{
+    display: block;
+    width: 40px !important;
+  }
+}

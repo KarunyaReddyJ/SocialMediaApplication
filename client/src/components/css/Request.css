@@ -1,0 +1,37 @@
+#request-page{
+    width: 30vw;
+    max-width: 500px;
+    margin:30px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 1px black;
+    padding: 10px 0;
+}
+#accept-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#request-page #accept,#reject{
+    display: block;
+    width: 6rem;
+    padding: 10px;
+    background-color: #0ddf45;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+#request-page #reject{
+    background-color: red;
+}
+#request-page button:hover{
+    background-color: #0056b3;
+}
+#request-page #username{
+    color:black;
+    font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+}
