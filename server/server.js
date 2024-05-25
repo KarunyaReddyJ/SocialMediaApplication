@@ -20,9 +20,9 @@ const cors=require('cors')
 const checkIsAdmin=require('./middlewares/checkAdmin')
 //routes
 app.use(cors({
-    origin: 'http://localhost:3000', // Replace with your frontend URL
-    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow specific HTTP methods
-    allowedHeaders: ['Content-Type', 'Authorization'], // Allow specific headers
+    origin: 'http://localhost:3000', // 
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+    allowedHeaders: ['Content-Type', 'Authorization'], 
     credentials:true
   }));
   
